@@ -1,0 +1,106 @@
+.main{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+        
+}
+
+.box{
+    background-color: #333;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    position: relative;
+}
+
+.first{
+    
+    margin: 20px;
+}
+
+.first p{
+    margin: 0;
+    font-size: 0.9rem;
+    color: #ffffff60;
+}
+.first h4{
+    margin: 0;
+    color: rgba(255, 255, 255, 0.842);
+    font-size: 1.2rem ;
+}
+
+
+.fields{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: white;
+}
+
+input{
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #777777;
+    
+    
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: rgb(8, 181, 239);
+    width: 100%;
+    cursor: pointer;
+}
+
+.toggle{
+    margin-top: 20px;
+    color: #888;
+    text-align: start;
+}
+
+.link{
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.close-button{
+    position: absolute;
+    top: 5px;
+    font-size: 2rem;
+    right: 20px;
+    color: #ffffffac;
+    cursor: pointer;
+}
+
+input::placeholder{
+    color: #ffffff7b;
+    font-size: 15px;
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
